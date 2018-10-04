@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [2, "tab"],
+        "no-tabs": 0,
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "new-cap": [
+            "error",
+            "never"
+        ]
+    }
+}
