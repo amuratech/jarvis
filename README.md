@@ -1,45 +1,22 @@
-# Chatkit
+# Jarvis
 
-Make yourself available.
-Live chat and messaging create a personal connection with customers looking for support. It’s a fast and effective way to offer help—without interrupting their experience. This project is based on the same idea, Here we are integrating chatkit by pusher to an independed node backend and to a frontend as R&D for future product development.
+Jarvis is an R&D initiative by Kiran. Idea behind the repo is to works as a budding platform that helps to drive company forward with cutting new technologies and dreaming for a future where we can adapt the technoques in these budding project to a mainstream product.
 
-### Installing
+## Projects
 
-Install all the dependency of the Node Platform
+**1.Botr**
 
-```
-npm install
-```
+    Make yourself available.
+    Live chat and messaging create a personal connection with customers looking for support. It’s a fast and effective way to offer help—without interrupting their experience. This project is based on the same idea, Here we are integrating chatkit by pusher to an independed node backend and to a frontend as R&D for future product development.
 
-Run node hot reload module with nodemon
+  **Stack**: es6+ JavaScript, Pusher, VueJS
 
-```
-npm start
-```
+  **Contributor** : Sachin Philip Mathew
 
-open `http://localhost:7957` on your browser.
+**2.Spring-cloud**
 
-### coding style
+    Microservice at its best, tryout engineering platform for exploring MS design pattens
 
-Used mostly reasonable approach to JavaScript by airbnb
+  **Stack**: spring-boot, spring-cloud, Java
 
-```
-Airbnb-base
-```
-
-## Deployment
-
-Not deployed
-
-## Built With
-
-* [NodeJS](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on V8
-* [ExpressJs](http://expressjs.com/) - A Fast, unopinionated, minimalist web framework for Node.js
-* [vueJs](https://vuejs.org/) - The Progressive JavaScript Framework
-* [chatkit](https://pusher.com/chatkit) - Developer-driven chat done simply.
-
-## Authors
-
-* **Sachin Philip Mathew** - *Initial work* - [labtocat](https://github.com/labtocat)
-
-See also the list of [contributors](https://github.com/amuratech/chatkit/contributors) who participated in this project.
+  **Contributor** : Sachin Philip Mathew

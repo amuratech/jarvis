@@ -1,7 +1,7 @@
 
 // express port details
 const EXPRESS_HOST = "localhost"
-const EXPRESS_PORT = 7957
+const EXPRESS_PORT = 3000
 // mongo client detauls
 const MONGO_HOST = "localhost"
 const MONGO_PORT = 27107
