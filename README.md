@@ -21,7 +21,7 @@ Jarvis is an R&D initiative by Kiran. Idea behind the repo is to works as a budd
 
   **Contributor** : Sachin Philip Mathew
 
-**3.Ouorra**
+**3.Quorra**
 
     An automated chat bot interface(#ongoing)
 
