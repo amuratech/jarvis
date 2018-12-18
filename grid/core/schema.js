@@ -8,6 +8,19 @@ type Accounts {
   recommendations: [String]!
 }
 
+type Tickets {
+  _id: String!
+  ticket_subject: String!
+  ticket_type: String
+  details: [ticketDetails]!
+}
+
+type ticketDetails {
+  priority: Float!
+  category: String!
+  status: Float!
+}
+
 type Invoice {
   amount: Int!
   month: String!
@@ -15,10 +28,15 @@ type Invoice {
 
 type Query {
   allAccounts: [Accounts!]!
+  allTickets: [Tickets]!
   findOne(id: String!): Accounts
 }
 
 type Mutation {
-  createCat(name: String!): Accounts!
+  createAccount(account_name: String!): Accounts!
+}
+
+type Subscription {
+  newAccount: Accounts!
 }
 `;

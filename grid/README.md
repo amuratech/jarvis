@@ -42,3 +42,10 @@ Filter a data point
   }
 }
 ```
+
+```
+http://heimdall.sell.do/api/v1/user/
+
+http://heimdall.sell.do/api/v1/selldo/95
+
+```

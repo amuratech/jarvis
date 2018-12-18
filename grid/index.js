@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { graphiqlExpress, graphqlExpress } from 'apollo-server-express';
 import { makeExecutableSchema } from 'graphql-tools';
-import Accounts from './config/mongo';
+import { Accounts, Tickets } from './config/mongo';
 
 import routes from './routes/routes';
 import typeDefs from './core/schema';
@@ -19,7 +19,7 @@ const schema = makeExecutableSchema({
 
 // routers
 app.use('/api/', routes);
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema, context: { Accounts } }));
+app.use('/graphql', bodyParser.json(), graphqlExpress({ schema, context: { Accounts, Tickets } }));
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
 app.listen(PORT);
