@@ -1,12 +1,12 @@
 {
-  "name": "mongodb-graphql-server-template",
+  "name": "grid-ql",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mongo wrapper with graphql and a rest framework implemetation for comparison",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
-  "author": "",
+  "author": "sachin philip mathew <me@imsach.in>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.1",
