@@ -28,3 +28,13 @@ Jarvis is an R&D initiative by Kiran. Idea behind the repo is to works as a budd
   **Stack**: restify, react native
 
   **Contributor** : Sachin Philip Mathew
+
+
+  **3.Grid**
+
+    A GraphQL implementation of top of heimdall system on terms of finding tradeof and advantages when compared with REST Framework.
+
+  **Stack**: Appolo-client, GraphQL
+
+  **Contributor** : Sachin Philip Mathew
+
