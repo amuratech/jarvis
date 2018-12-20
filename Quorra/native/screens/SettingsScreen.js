@@ -1,16 +1,23 @@
 import React from 'react';
 import {
-  Text
+  Text,
+  View
 } from 'react-native';
+import axios from 'axios';
+import Animation from './Animation'
 
-export default class SettingsScreen extends React.Component {
+export default class SettingsScreen extends React.PureComponent {
   static navigationOptions = {
-    title: 'app.json',
+    title: 'Lottie',
   };
+
+  fetchSetting(){
+
+  }
 
   render() {
     return (
-      <Text>Settings Page</Text>
+        <Animation />
     )
   }
 }
