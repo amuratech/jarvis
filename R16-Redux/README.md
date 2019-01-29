@@ -58,6 +58,18 @@ So the react have a work flow in which each and every request is been processed.
 ![](docs/redux.png?raw=true)
 
 
+The diagram shows how data flows through the component.
+
+Before getting much in to it let me explain some of the terms in this diagram
+
+`Actions`: actions are typically actions (say if its a server request the request is the action). It also defines types to which actions are called. (example lets say we have an event `FETCH_LIST` defined as a type in actions, in definition it fetches data from the server. All these type and definition are declared out here). once action is performed it get dispached with a tag.
+
+`Reducers`: reducers catches this tag and updated it to the store. These definition are defined in reducers
+
+`Store`: After write happens to the store, redux identifies a diff and provides the change to the component.
+
+these are the actions happening in folders `action`, `reducers` and `store.js`.
+
 
 ## Installation
 
